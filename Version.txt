@@ -1,0 +1,36 @@
+Analyzer
+--------------------------------------
+  pAnalyzer         - 2010.R52.12.3112
+  pAtualiza         - 2010.R14.12.1411
+  pAccess           - 2010.R05.12.2812
+  pChave            - 2010.R15.12.2812
+  pCubo             - 2010.R21.12.1411
+  pDecisionCube     - 2010.R29.01.0601
+  pDesigner         - 2010.R08.12.2812
+  pDynamics         - 2010.R17.12.1411
+  pGeoAnalises      - 2010.R12.12.2812
+  pLogs             - 2010.R05.12.1411
+  pManABC           - 2010.R06.12.1411
+  pManAnalises      - 2010.R08.12.1411
+  pManDecisionCube  - 2010.R11.12.2812
+  pManDynamics      - 2010.R05.12.1411
+  pManGeoAnalises   - 2010.R06.12.2711
+  pManFotografia    - 2010.R06.12.1411
+  pManFrequencia    - 2010.R06.12.1411
+  pManRelatorios    - 2010.R05.12.1411
+  pManScoredCard    - 2010.R16.12.2812
+  pParametros       - 2010.R05.12.3112
+  pRelatorios       - 2010.R12.12.2812
+  pScheduler        - 2010.R11.12.1411
+  pScoredCard       - 2010.R15.12.1411
+  pSmartDocs        - 2010.R06.12.2812
+  pSobre            - 2010.R03.12.1411
+  pUpdateBase       - 2010.R04.12.1411
+  pUsuarios         - 2010.R10.12.3112
+  pVisio            - 2010.R05.12.2812
+
+WebBI
+--------------------------------------
+  pWebBI            - 2012.R05.12.3112
+  pConsoleWebBI     - 2012.R05.12.3112
+  ClassWebBI        - 2012.R05.12.3112

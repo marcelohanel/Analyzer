@@ -1,0 +1,22 @@
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ConsoleWebBI.exe
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ConsoleWebBI.pdb
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ClassWebBI.dll
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ClassWebBI.pdb
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.exe
+C:\Full WebBI\SolutionWebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.pdb
+C:\WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\Config.xml
+C:\WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ConsoleWebBI.exe
+C:\WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ConsoleWebBI.pdb
+C:\WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ClassWebBI.dll
+C:\WebBI\SolutionWebBI\ConsoleWebBI\bin\Debug\ClassWebBI.pdb
+C:\WebBI\SolutionWebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.csprojResolveAssemblyReference.cache
+C:\WebBI\SolutionWebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.exe
+C:\WebBI\SolutionWebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.pdb
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\bin\Debug\ConsoleWebBI.exe
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\bin\Debug\ConsoleWebBI.pdb
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\bin\Debug\ClassWebBI.dll
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\bin\Debug\ClassWebBI.pdb
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.csprojResolveAssemblyReference.cache
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.exe
+C:\Analyzer\Fontes\WebBI\ConsoleWebBI\obj\x86\Debug\ConsoleWebBI.pdb

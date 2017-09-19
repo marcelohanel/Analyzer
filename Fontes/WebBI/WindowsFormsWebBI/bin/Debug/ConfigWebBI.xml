@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <ConnectionString>Data Source=MARCELOHANEL-PC\SQLEXPRESS;Initial Catalog=AnalyzerSQL;Integrated Security=True</ConnectionString>
+</Config>

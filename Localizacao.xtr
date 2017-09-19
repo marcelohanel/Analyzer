@@ -1,0 +1,196 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds" DataEncoding="UTF-8"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\kml\Document\Folder"><Select dest="@name" from="\name"/><Select dest="@open" from="\open"/><SelectEach dest="Placemark\ROWPlacemark" from="\Placemark"><Select dest="@name" from="\name"/><Select dest="@description" from="\description"/><Select dest="@styleUrl" from="\styleUrl"/><Select dest="@coordinates" from="\Point\coordinates"/></SelectEach></SelectEach></Transform><XmlSchema RootName="kml"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="kml" type="kmlType"/>
+  <xs:complexType name="kmlType">
+    <xs:sequence>
+      <xs:element name="Document" type="DocumentType"/>
+    </xs:sequence>
+    <xs:attribute name="xmlns" type="xs:string"/>
+    <xs:attribute name="xmlns:gx" type="xs:string"/>
+    <xs:attribute name="xmlns:kml" type="xs:string"/>
+    <xs:attribute name="xmlns:atom" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="Document" type="DocumentType"/>
+  <xs:complexType name="DocumentType">
+    <xs:sequence>
+      <xs:element name="name" type="nameType"/>
+      <xs:element name="open" type="openType"/>
+      <xs:element name="description" type="descriptionType"/>
+      <xs:element name="LookAt" type="LookAtType"/>
+      <xs:element name="styleUrl" type="styleUrlType"/>
+      <xs:element name="Style" type="StyleType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="StyleMap" type="StyleMapType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="Folder" type="FolderType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="name" type="nameType"/>
+  <xs:simpleType name="nameType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="open" type="openType"/>
+  <xs:simpleType name="openType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="description" type="descriptionType"/>
+  <xs:simpleType name="descriptionType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="LookAt" type="LookAtType"/>
+  <xs:complexType name="LookAtType">
+    <xs:sequence>
+      <xs:element name="longitude" type="longitudeType"/>
+      <xs:element name="latitude" type="latitudeType"/>
+      <xs:element name="altitude" type="altitudeType"/>
+      <xs:element name="range" type="rangeType"/>
+      <xs:element name="tilt" type="tiltType"/>
+      <xs:element name="heading" type="headingType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="longitude" type="longitudeType"/>
+  <xs:simpleType name="longitudeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="latitude" type="latitudeType"/>
+  <xs:simpleType name="latitudeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="altitude" type="altitudeType"/>
+  <xs:simpleType name="altitudeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="range" type="rangeType"/>
+  <xs:simpleType name="rangeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tilt" type="tiltType"/>
+  <xs:simpleType name="tiltType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="heading" type="headingType"/>
+  <xs:simpleType name="headingType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="styleUrl" type="styleUrlType"/>
+  <xs:simpleType name="styleUrlType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Style" type="StyleType"/>
+  <xs:complexType name="StyleType">
+    <xs:sequence>
+      <xs:element name="IconStyle" type="IconStyleType"/>
+      <xs:element name="LabelStyle" type="LabelStyleType"/>
+      <xs:element name="BalloonStyle" type="BalloonStyleType"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="IconStyle" type="IconStyleType"/>
+  <xs:complexType name="IconStyleType">
+    <xs:sequence>
+      <xs:element name="scale" type="scaleType"/>
+      <xs:element name="Icon" type="IconType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="scale" type="scaleType"/>
+  <xs:simpleType name="scaleType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Icon" type="IconType"/>
+  <xs:complexType name="IconType">
+    <xs:sequence>
+      <xs:element name="href" type="hrefType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="href" type="hrefType"/>
+  <xs:simpleType name="hrefType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="LabelStyle" type="LabelStyleType"/>
+  <xs:complexType name="LabelStyleType">
+    <xs:sequence>
+      <xs:element name="scale" type="scaleType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="scale" type="scaleType"/>
+  <xs:simpleType name="scaleType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="BalloonStyle" type="BalloonStyleType"/>
+  <xs:complexType name="BalloonStyleType">
+    <xs:sequence>
+      <xs:element name="color" type="colorType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="color" type="colorType"/>
+  <xs:simpleType name="colorType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="StyleMap" type="StyleMapType"/>
+  <xs:complexType name="StyleMapType">
+    <xs:sequence>
+      <xs:element name="Pair" type="PairType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="Pair" type="PairType"/>
+  <xs:complexType name="PairType">
+    <xs:sequence>
+      <xs:element name="key" type="keyType"/>
+      <xs:element name="styleUrl" type="styleUrlType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="key" type="keyType"/>
+  <xs:simpleType name="keyType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="styleUrl" type="styleUrlType"/>
+  <xs:simpleType name="styleUrlType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Folder" type="FolderType"/>
+  <xs:complexType name="FolderType">
+    <xs:sequence>
+      <xs:element name="name" type="nameType"/>
+      <xs:element name="Placemark" type="PlacemarkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="open" type="openType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="name" type="nameType"/>
+  <xs:simpleType name="nameType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Placemark" type="PlacemarkType"/>
+  <xs:complexType name="PlacemarkType">
+    <xs:sequence>
+      <xs:element name="name" type="nameType"/>
+      <xs:element name="description" type="descriptionType"/>
+      <xs:element name="styleUrl" type="styleUrlType"/>
+      <xs:element name="Point" type="PointType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="name" type="nameType"/>
+  <xs:simpleType name="nameType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="description" type="descriptionType"/>
+  <xs:simpleType name="descriptionType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="styleUrl" type="styleUrlType"/>
+  <xs:simpleType name="styleUrlType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Point" type="PointType"/>
+  <xs:complexType name="PointType">
+    <xs:sequence>
+      <xs:element name="coordinates" type="coordinatesType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="coordinates" type="coordinatesType"/>
+  <xs:simpleType name="coordinatesType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="open" type="openType"/>
+  <xs:simpleType name="openType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="name" fieldtype="string" WIDTH="50"/><FIELD attrname="open" fieldtype="string" WIDTH="1"/><FIELD attrname="Placemark" fieldtype="nested"><FIELDS><FIELD attrname="name" fieldtype="string" WIDTH="50"/><FIELD attrname="description" fieldtype="string" WIDTH="50"/><FIELD attrname="styleUrl" fieldtype="string" WIDTH="12"/><FIELD attrname="coordinates" fieldtype="string" WIDTH="50"/></FIELDS><PARAMS/></FIELD></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="name" fieldtype="string" WIDTH="50"/><FIELD attrname="open" fieldtype="string" WIDTH="1"/><FIELD attrname="Placemark" fieldtype="nested"><FIELDS><FIELD attrname="name" fieldtype="string" WIDTH="50"/><FIELD attrname="description" fieldtype="string" WIDTH="50"/><FIELD attrname="styleUrl" fieldtype="string" WIDTH="12"/><FIELD attrname="coordinates" fieldtype="string" WIDTH="50"/></FIELDS><PARAMS/></FIELD></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

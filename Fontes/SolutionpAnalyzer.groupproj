@@ -1,0 +1,360 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{C56EF708-9656-487C-B62F-801249C0199C}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="pAnalyzer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Atualiza\pAtualiza.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Access\pAccess.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Chave\pChave.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Cubo\pCubo.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="DecisionCube\pDecisionCube.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Designer\pDesigner.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Dynamics\pDynamics.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="GeoAnalises\pGeoAnalises.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Logs\pLogs.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManABC\pManABC.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManAnalises\pManAnalises.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManDecisionCube\pManDecisionCube.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManDynamics\pManDynamics.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManGeoAnalises\pManGeoAnalises.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManFotografia\pManFotografia.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManFrequencia\pManFrequencia.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManRelatorios\pManRelatorios.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ManScoredCard\pManScoredCard.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Parametros\pParametros.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Relatorios\pRelatorios.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Scheduler\pScheduler.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="ScoredCard\pScoredCard.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="SmartDocs\pSmartDocs.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Sobre\pSobre.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="UpdateBase\pUpdateBase.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Usuarios\pUsuarios.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Visio\pVisio.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="pAnalyzer">
+			<MSBuild Projects="pAnalyzer.dproj"/>
+		</Target>
+		<Target Name="pAnalyzer:Clean">
+			<MSBuild Targets="Clean" Projects="pAnalyzer.dproj"/>
+		</Target>
+		<Target Name="pAnalyzer:Make">
+			<MSBuild Targets="Make" Projects="pAnalyzer.dproj"/>
+		</Target>
+		<Target Name="pAtualiza">
+			<MSBuild Projects="Atualiza\pAtualiza.dproj"/>
+		</Target>
+		<Target Name="pAtualiza:Clean">
+			<MSBuild Targets="Clean" Projects="Atualiza\pAtualiza.dproj"/>
+		</Target>
+		<Target Name="pAtualiza:Make">
+			<MSBuild Targets="Make" Projects="Atualiza\pAtualiza.dproj"/>
+		</Target>
+		<Target Name="pAccess">
+			<MSBuild Projects="Access\pAccess.dproj"/>
+		</Target>
+		<Target Name="pAccess:Clean">
+			<MSBuild Targets="Clean" Projects="Access\pAccess.dproj"/>
+		</Target>
+		<Target Name="pAccess:Make">
+			<MSBuild Targets="Make" Projects="Access\pAccess.dproj"/>
+		</Target>
+		<Target Name="pChave">
+			<MSBuild Projects="Chave\pChave.dproj"/>
+		</Target>
+		<Target Name="pChave:Clean">
+			<MSBuild Targets="Clean" Projects="Chave\pChave.dproj"/>
+		</Target>
+		<Target Name="pChave:Make">
+			<MSBuild Targets="Make" Projects="Chave\pChave.dproj"/>
+		</Target>
+		<Target Name="pCubo">
+			<MSBuild Projects="Cubo\pCubo.dproj"/>
+		</Target>
+		<Target Name="pCubo:Clean">
+			<MSBuild Targets="Clean" Projects="Cubo\pCubo.dproj"/>
+		</Target>
+		<Target Name="pCubo:Make">
+			<MSBuild Targets="Make" Projects="Cubo\pCubo.dproj"/>
+		</Target>
+		<Target Name="pDecisionCube">
+			<MSBuild Projects="DecisionCube\pDecisionCube.dproj"/>
+		</Target>
+		<Target Name="pDecisionCube:Clean">
+			<MSBuild Targets="Clean" Projects="DecisionCube\pDecisionCube.dproj"/>
+		</Target>
+		<Target Name="pDecisionCube:Make">
+			<MSBuild Targets="Make" Projects="DecisionCube\pDecisionCube.dproj"/>
+		</Target>
+		<Target Name="pDesigner">
+			<MSBuild Projects="Designer\pDesigner.dproj"/>
+		</Target>
+		<Target Name="pDesigner:Clean">
+			<MSBuild Targets="Clean" Projects="Designer\pDesigner.dproj"/>
+		</Target>
+		<Target Name="pDesigner:Make">
+			<MSBuild Targets="Make" Projects="Designer\pDesigner.dproj"/>
+		</Target>
+		<Target Name="pDynamics">
+			<MSBuild Projects="Dynamics\pDynamics.dproj"/>
+		</Target>
+		<Target Name="pDynamics:Clean">
+			<MSBuild Targets="Clean" Projects="Dynamics\pDynamics.dproj"/>
+		</Target>
+		<Target Name="pDynamics:Make">
+			<MSBuild Targets="Make" Projects="Dynamics\pDynamics.dproj"/>
+		</Target>
+		<Target Name="pGeoAnalises">
+			<MSBuild Projects="GeoAnalises\pGeoAnalises.dproj"/>
+		</Target>
+		<Target Name="pGeoAnalises:Clean">
+			<MSBuild Targets="Clean" Projects="GeoAnalises\pGeoAnalises.dproj"/>
+		</Target>
+		<Target Name="pGeoAnalises:Make">
+			<MSBuild Targets="Make" Projects="GeoAnalises\pGeoAnalises.dproj"/>
+		</Target>
+		<Target Name="pLogs">
+			<MSBuild Projects="Logs\pLogs.dproj"/>
+		</Target>
+		<Target Name="pLogs:Clean">
+			<MSBuild Targets="Clean" Projects="Logs\pLogs.dproj"/>
+		</Target>
+		<Target Name="pLogs:Make">
+			<MSBuild Targets="Make" Projects="Logs\pLogs.dproj"/>
+		</Target>
+		<Target Name="pManABC">
+			<MSBuild Projects="ManABC\pManABC.dproj"/>
+		</Target>
+		<Target Name="pManABC:Clean">
+			<MSBuild Targets="Clean" Projects="ManABC\pManABC.dproj"/>
+		</Target>
+		<Target Name="pManABC:Make">
+			<MSBuild Targets="Make" Projects="ManABC\pManABC.dproj"/>
+		</Target>
+		<Target Name="pManAnalises">
+			<MSBuild Projects="ManAnalises\pManAnalises.dproj"/>
+		</Target>
+		<Target Name="pManAnalises:Clean">
+			<MSBuild Targets="Clean" Projects="ManAnalises\pManAnalises.dproj"/>
+		</Target>
+		<Target Name="pManAnalises:Make">
+			<MSBuild Targets="Make" Projects="ManAnalises\pManAnalises.dproj"/>
+		</Target>
+		<Target Name="pManDecisionCube">
+			<MSBuild Projects="ManDecisionCube\pManDecisionCube.dproj"/>
+		</Target>
+		<Target Name="pManDecisionCube:Clean">
+			<MSBuild Targets="Clean" Projects="ManDecisionCube\pManDecisionCube.dproj"/>
+		</Target>
+		<Target Name="pManDecisionCube:Make">
+			<MSBuild Targets="Make" Projects="ManDecisionCube\pManDecisionCube.dproj"/>
+		</Target>
+		<Target Name="pManDynamics">
+			<MSBuild Projects="ManDynamics\pManDynamics.dproj"/>
+		</Target>
+		<Target Name="pManDynamics:Clean">
+			<MSBuild Targets="Clean" Projects="ManDynamics\pManDynamics.dproj"/>
+		</Target>
+		<Target Name="pManDynamics:Make">
+			<MSBuild Targets="Make" Projects="ManDynamics\pManDynamics.dproj"/>
+		</Target>
+		<Target Name="pManGeoAnalises">
+			<MSBuild Projects="ManGeoAnalises\pManGeoAnalises.dproj"/>
+		</Target>
+		<Target Name="pManGeoAnalises:Clean">
+			<MSBuild Targets="Clean" Projects="ManGeoAnalises\pManGeoAnalises.dproj"/>
+		</Target>
+		<Target Name="pManGeoAnalises:Make">
+			<MSBuild Targets="Make" Projects="ManGeoAnalises\pManGeoAnalises.dproj"/>
+		</Target>
+		<Target Name="pManFotografia">
+			<MSBuild Projects="ManFotografia\pManFotografia.dproj"/>
+		</Target>
+		<Target Name="pManFotografia:Clean">
+			<MSBuild Targets="Clean" Projects="ManFotografia\pManFotografia.dproj"/>
+		</Target>
+		<Target Name="pManFotografia:Make">
+			<MSBuild Targets="Make" Projects="ManFotografia\pManFotografia.dproj"/>
+		</Target>
+		<Target Name="pManFrequencia">
+			<MSBuild Projects="ManFrequencia\pManFrequencia.dproj"/>
+		</Target>
+		<Target Name="pManFrequencia:Clean">
+			<MSBuild Targets="Clean" Projects="ManFrequencia\pManFrequencia.dproj"/>
+		</Target>
+		<Target Name="pManFrequencia:Make">
+			<MSBuild Targets="Make" Projects="ManFrequencia\pManFrequencia.dproj"/>
+		</Target>
+		<Target Name="pManRelatorios">
+			<MSBuild Projects="ManRelatorios\pManRelatorios.dproj"/>
+		</Target>
+		<Target Name="pManRelatorios:Clean">
+			<MSBuild Targets="Clean" Projects="ManRelatorios\pManRelatorios.dproj"/>
+		</Target>
+		<Target Name="pManRelatorios:Make">
+			<MSBuild Targets="Make" Projects="ManRelatorios\pManRelatorios.dproj"/>
+		</Target>
+		<Target Name="pManScoredCard">
+			<MSBuild Projects="ManScoredCard\pManScoredCard.dproj"/>
+		</Target>
+		<Target Name="pManScoredCard:Clean">
+			<MSBuild Targets="Clean" Projects="ManScoredCard\pManScoredCard.dproj"/>
+		</Target>
+		<Target Name="pManScoredCard:Make">
+			<MSBuild Targets="Make" Projects="ManScoredCard\pManScoredCard.dproj"/>
+		</Target>
+		<Target Name="pParametros">
+			<MSBuild Projects="Parametros\pParametros.dproj"/>
+		</Target>
+		<Target Name="pParametros:Clean">
+			<MSBuild Targets="Clean" Projects="Parametros\pParametros.dproj"/>
+		</Target>
+		<Target Name="pParametros:Make">
+			<MSBuild Targets="Make" Projects="Parametros\pParametros.dproj"/>
+		</Target>
+		<Target Name="pRelatorios">
+			<MSBuild Projects="Relatorios\pRelatorios.dproj"/>
+		</Target>
+		<Target Name="pRelatorios:Clean">
+			<MSBuild Targets="Clean" Projects="Relatorios\pRelatorios.dproj"/>
+		</Target>
+		<Target Name="pRelatorios:Make">
+			<MSBuild Targets="Make" Projects="Relatorios\pRelatorios.dproj"/>
+		</Target>
+		<Target Name="pScheduler">
+			<MSBuild Projects="Scheduler\pScheduler.dproj"/>
+		</Target>
+		<Target Name="pScheduler:Clean">
+			<MSBuild Targets="Clean" Projects="Scheduler\pScheduler.dproj"/>
+		</Target>
+		<Target Name="pScheduler:Make">
+			<MSBuild Targets="Make" Projects="Scheduler\pScheduler.dproj"/>
+		</Target>
+		<Target Name="pScoredCard">
+			<MSBuild Projects="ScoredCard\pScoredCard.dproj"/>
+		</Target>
+		<Target Name="pScoredCard:Clean">
+			<MSBuild Targets="Clean" Projects="ScoredCard\pScoredCard.dproj"/>
+		</Target>
+		<Target Name="pScoredCard:Make">
+			<MSBuild Targets="Make" Projects="ScoredCard\pScoredCard.dproj"/>
+		</Target>
+		<Target Name="pSmartDocs">
+			<MSBuild Projects="SmartDocs\pSmartDocs.dproj"/>
+		</Target>
+		<Target Name="pSmartDocs:Clean">
+			<MSBuild Targets="Clean" Projects="SmartDocs\pSmartDocs.dproj"/>
+		</Target>
+		<Target Name="pSmartDocs:Make">
+			<MSBuild Targets="Make" Projects="SmartDocs\pSmartDocs.dproj"/>
+		</Target>
+		<Target Name="pSobre">
+			<MSBuild Projects="Sobre\pSobre.dproj"/>
+		</Target>
+		<Target Name="pSobre:Clean">
+			<MSBuild Targets="Clean" Projects="Sobre\pSobre.dproj"/>
+		</Target>
+		<Target Name="pSobre:Make">
+			<MSBuild Targets="Make" Projects="Sobre\pSobre.dproj"/>
+		</Target>
+		<Target Name="pUpdateBase">
+			<MSBuild Projects="UpdateBase\pUpdateBase.dproj"/>
+		</Target>
+		<Target Name="pUpdateBase:Clean">
+			<MSBuild Targets="Clean" Projects="UpdateBase\pUpdateBase.dproj"/>
+		</Target>
+		<Target Name="pUpdateBase:Make">
+			<MSBuild Targets="Make" Projects="UpdateBase\pUpdateBase.dproj"/>
+		</Target>
+		<Target Name="pUsuarios">
+			<MSBuild Projects="Usuarios\pUsuarios.dproj"/>
+		</Target>
+		<Target Name="pUsuarios:Clean">
+			<MSBuild Targets="Clean" Projects="Usuarios\pUsuarios.dproj"/>
+		</Target>
+		<Target Name="pUsuarios:Make">
+			<MSBuild Targets="Make" Projects="Usuarios\pUsuarios.dproj"/>
+		</Target>
+		<Target Name="pVisio">
+			<MSBuild Projects="Visio\pVisio.dproj"/>
+		</Target>
+		<Target Name="pVisio:Clean">
+			<MSBuild Targets="Clean" Projects="Visio\pVisio.dproj"/>
+		</Target>
+		<Target Name="pVisio:Make">
+			<MSBuild Targets="Make" Projects="Visio\pVisio.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="pAnalyzer;pAtualiza;pAccess;pChave;pCubo;pDecisionCube;pDesigner;pDynamics;pGeoAnalises;pLogs;pManABC;pManAnalises;pManDecisionCube;pManDynamics;pManGeoAnalises;pManFotografia;pManFrequencia;pManRelatorios;pManScoredCard;pParametros;pRelatorios;pScheduler;pScoredCard;pSmartDocs;pSobre;pUpdateBase;pUsuarios;pVisio"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="pAnalyzer:Clean;pAtualiza:Clean;pAccess:Clean;pChave:Clean;pCubo:Clean;pDecisionCube:Clean;pDesigner:Clean;pDynamics:Clean;pGeoAnalises:Clean;pLogs:Clean;pManABC:Clean;pManAnalises:Clean;pManDecisionCube:Clean;pManDynamics:Clean;pManGeoAnalises:Clean;pManFotografia:Clean;pManFrequencia:Clean;pManRelatorios:Clean;pManScoredCard:Clean;pParametros:Clean;pRelatorios:Clean;pScheduler:Clean;pScoredCard:Clean;pSmartDocs:Clean;pSobre:Clean;pUpdateBase:Clean;pUsuarios:Clean;pVisio:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="pAnalyzer:Make;pAtualiza:Make;pAccess:Make;pChave:Make;pCubo:Make;pDecisionCube:Make;pDesigner:Make;pDynamics:Make;pGeoAnalises:Make;pLogs:Make;pManABC:Make;pManAnalises:Make;pManDecisionCube:Make;pManDynamics:Make;pManGeoAnalises:Make;pManFotografia:Make;pManFrequencia:Make;pManRelatorios:Make;pManScoredCard:Make;pParametros:Make;pRelatorios:Make;pScheduler:Make;pScoredCard:Make;pSmartDocs:Make;pSobre:Make;pUpdateBase:Make;pUsuarios:Make;pVisio:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

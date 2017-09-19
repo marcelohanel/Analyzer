@@ -1,0 +1,1 @@
+SQLServer#Provider=SQLNCLI11.1;Integrated Security="";Persist Security Info=False;User ID=sa;Password=sqlserver;Initial Catalog=AnalyzerSQL;Data Source=Mffff-PC\SQLEXPRESS;Initial File Name="";Server SPN=""

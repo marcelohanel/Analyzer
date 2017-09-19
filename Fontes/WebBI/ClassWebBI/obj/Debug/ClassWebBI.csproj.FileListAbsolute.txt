@@ -1,0 +1,18 @@
+C:\Full WebBI\SolutionWebBI\ClassWebBI\bin\Debug\ClassWebBI.dll.config
+C:\Full WebBI\SolutionWebBI\ClassWebBI\bin\Debug\ClassWebBI.dll
+C:\Full WebBI\SolutionWebBI\ClassWebBI\bin\Debug\ClassWebBI.pdb
+C:\Full WebBI\SolutionWebBI\ClassWebBI\obj\Debug\ResolveAssemblyReference.cache
+C:\Full WebBI\SolutionWebBI\ClassWebBI\obj\Debug\ClassWebBI.dll
+C:\Full WebBI\SolutionWebBI\ClassWebBI\obj\Debug\ClassWebBI.pdb
+C:\WebBI\SolutionWebBI\ClassWebBI\bin\Debug\Config.xml
+C:\WebBI\SolutionWebBI\ClassWebBI\bin\Debug\ClassWebBI.dll.config
+C:\WebBI\SolutionWebBI\ClassWebBI\bin\Debug\ClassWebBI.dll
+C:\WebBI\SolutionWebBI\ClassWebBI\bin\Debug\ClassWebBI.pdb
+C:\WebBI\SolutionWebBI\ClassWebBI\obj\Debug\ClassWebBI.dll
+C:\WebBI\SolutionWebBI\ClassWebBI\obj\Debug\ClassWebBI.pdb
+C:\WebBI\SolutionWebBI\ClassWebBI\obj\Debug\ClassWebBI.csprojResolveAssemblyReference.cache
+C:\Analyzer\Fontes\WebBI\ClassWebBI\bin\Debug\ClassWebBI.dll.config
+C:\Analyzer\Fontes\WebBI\ClassWebBI\bin\Debug\ClassWebBI.dll
+C:\Analyzer\Fontes\WebBI\ClassWebBI\bin\Debug\ClassWebBI.pdb
+C:\Analyzer\Fontes\WebBI\ClassWebBI\obj\Debug\ClassWebBI.dll
+C:\Analyzer\Fontes\WebBI\ClassWebBI\obj\Debug\ClassWebBI.pdb

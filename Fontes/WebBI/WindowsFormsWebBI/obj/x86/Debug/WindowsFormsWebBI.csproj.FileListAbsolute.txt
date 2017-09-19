@@ -1,0 +1,76 @@
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.exe.config
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.exe
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.pdb
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\ClassWebBI.dll
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\ClassWebBI.pdb
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormAnexos.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcel.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcelTituloAssinaturas.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcelTitulos.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormGrupos.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormLogin.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormMail.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcel.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcelTituloAssinaturas.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcelTitulos.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManGrupos.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManUsuarios.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormParametros.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormPrincipal.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormUsuarios.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.Properties.Resources.resources
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.exe
+C:\Full WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.pdb
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\Config.xml
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.exe.config
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.exe
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.pdb
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\ClassWebBI.dll
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\bin\Debug\ClassWebBI.pdb
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.csprojResolveAssemblyReference.cache
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormAnexos.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcel.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcelTituloAssinaturas.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcelTitulos.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormGrupos.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormLogin.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormMail.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcel.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcelTituloAssinaturas.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcelTitulos.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManGrupos.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManUsuarios.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormParametros.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormPrincipal.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormUsuarios.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.Properties.Resources.resources
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.csproj.GenerateResource.Cache
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.exe
+C:\WebBI\SolutionWebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.pdb
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\bin\Debug\ConfigWebBI.xml
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.exe.config
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.exe
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\bin\Debug\WindowsFormsWebBI.pdb
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\bin\Debug\ClassWebBI.dll
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\bin\Debug\ClassWebBI.pdb
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.csprojResolveAssemblyReference.cache
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormAnexos.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcel.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcelTituloAssinaturas.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormExcelTitulos.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormGrupos.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormLogin.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormMail.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcel.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcelTituloAssinaturas.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManExcelTitulos.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormManGrupos.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormPrincipal.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.FormUsuarios.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.Properties.Resources.resources
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.csproj.GenerateResource.Cache
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.exe
+C:\Analyzer\Fontes\WebBI\WindowsFormsWebBI\obj\x86\Debug\WindowsFormsWebBI.pdb

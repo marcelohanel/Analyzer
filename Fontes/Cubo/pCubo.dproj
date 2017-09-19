@@ -1,0 +1,162 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F8A35114-3520-47FA-96C4-FBA734EC74BE}</ProjectGuid>
+        <ProjectVersion>14.3</ProjectVersion>
+        <MainSource>pCubo.dpr</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <FrameworkType>VCL</FrameworkType>
+        <Base>True</Base>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <VerInfo_MinorVer>20</VerInfo_MinorVer>
+        <VerInfo_Locale>1046</VerInfo_Locale>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;VCLTee;Data.Win;System.Win;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_MajorVer>2010</VerInfo_MajorVer>
+        <VerInfo_Keys>CompanyName=Intelectivo Sistemas Estratégicos;FileDescription=;FileVersion=2010.20.0.0;InternalName=;LegalCopyright=Intelectivo Sistemas Estratégicos;LegalTrademarks=Analyzer Business Intelligence;OriginalFilename=;ProductName=Decision Cube;ProductVersion=2010.R20.25102012;Comments=</VerInfo_Keys>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_UsePackage>vclx;vcl;rtl;vclactnband;xmlrtl;dbrtl;vcldb;xhCntrls140;vclimg;vcldbx;bdertl;vcltouch;dsnap;dsnapcon;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DbxClientDriver;DataSnapServer;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;Rave77VCL;owc2010;TeeTree2D14Tee8;TeeWorld814;TeeImage814;TeeLanguage814;TeePro814;TeeGL814;TeeUI814;TeeDB814;Tee814;xhChart140;xhStd140;xhExport140;dxDockingRS14;cxLibraryRS14;dxCoreRS14;dxSBRS14;dxComnRS14;dxLayoutControlRS14;cxSpreadSheetRS14;dxFlowChartRS14;cxSchedulerRS14;cxEditorsRS14;cxSchedulerGridRS14;dxDBOrRS14;dxOrgCRS14;dxdbtrRS14;dxtrmdRS14;dxmdsRS14;cxPivotGridChartRS14;cxPivotGridRS14;dxSpellCheckerRS14;cxExtEditorsRS14;dxBarRS14;dxBarDBNavRS14;cxBarEditItemRS14;dxBarExtDBItemsRS14;dxBarExtItemsRS14;dxRibbonRS14;cxPageControlRS14;cxGridRS14;dxLayoutControlcxEditAdaptersRS14;cxTreeListRS14;cxTreeListdxBarPopupMenuRS14;cxVerticalGridRS14;dxPSCoreRS14;dxPSLnksRS14;vclshlctrls;dxPScxCommonRS14;dxPScxExtCommonRS14;dxPScxPCProdRS14;dxPScxSSLnkRS14;dxPScxTL5LnkRS14;dxPScxVGridLnkRS14;dxPSdxDBTVLnkRS14;dxPSdxFCLnkRS14;dxPSdxLCLnkRS14;dxPSdxOCLnkRS14;dxPSdxDBOCLnkRS14;dxPSPrVwAdvRS14;dxPScxGrid6LnkRS14;cxPivotGridOLAPRS14;dcldxSkinsCoreRS14;dxSkinsCoreRS14;dxSkinscxPCPainterRS14;dxSkinsdxLCPainterRS14;dxSkinscxScheduler3PainterRS14;dxSkinsdxNavBar2PainterRS14;dxNavBarRS14;dxSkinsdxDLPainterRS14;dxSkinsdxRibbonPainterRS14;dxSkinsdxBarPainterRS14;dxSkinBlackRS14;dxSkinBlueRS14;dxSkinSilverRS14;dxSkinStardustRS14;dxSkinValentineRS14;dxSkinXmas2008BlueRS14;dxSkinCaramelRS14;dxSkinCoffeeRS14;dxSkinPumpkinRS14;dxSkinDarkSideRS14;dxSkinGlassOceansRS14;dxSkiniMaginaryRS14;dxSkinLilianRS14;dxSkinMcSkinRS14;dxSkinLiquidSkyRS14;dxSkinLondonLiquidSkyRS14;dxSkinMoneyTwinsRS14;dxSkinOffice2007BlackRS14;dxSkinOffice2007BlueRS14;dxSkinOffice2007GreenRS14;dxSkinOffice2007PinkRS14;dxSkinOffice2007SilverRS14;dxSkinSummer2008RS14;dxSkinSpringTimeRS14;dxSkinSevenRS14;dxSkinFoggyRS14;dxSkinDarkRoomRS14;dxSkinSharpRS14;mydacvcl140;mydac140;dacvcl140;dac140;mysqlmon140;dclRBE1214;rbCIDE1214;rbIDE1214;rbRCL1214;rbBDE1214;rbUSERDesign1214;rbUSER1214;rbDIDE1214;rbDAD1214;dclRBBDE1214;rbDBDE1214;rbDB1214;dclRBADO1214;rbADO1214;dclRBDBE1214;rbDBE1214;dclRBIBE1214;rbIBE1214;rbRIDE1214;rbRAP1214;rbTCUI1214;rbTC1214;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_ExeOutput>..\..\</DCC_ExeOutput>
+        <DCC_DependencyCheckOutputName>..\..\pCubo.exe</DCC_DependencyCheckOutputName>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_Platform>x86</DCC_Platform>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <DCC_Namespace>Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <Icon_MainIcon>pCubo_Icon.ico</Icon_MainIcon>
+        <Debugger_RunParams>c:\analizer\temp\comandocubo.txt</Debugger_RunParams>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Icon_MainIcon>pCubo_Icon.ico</Icon_MainIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>false</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <VerInfo_MinorVer>21</VerInfo_MinorVer>
+        <VerInfo_Release>12</VerInfo_Release>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=2010.21.12.1411;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=Cubo;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Build>1411</VerInfo_Build>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="uCubo.pas">
+            <Form>frmCubo</Form>
+        </DCCReference>
+        <DCCReference Include="..\uFuncoes.pas"/>
+        <DCCReference Include="..\uAguarde.pas">
+            <Form>frmAguarde</Form>
+        </DCCReference>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">pCubo.dpr</Source>
+                </Source>
+                <Parameters>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                    <Parameters Name="RunParams">c:\analizer\temp\comandocubo.txt</Parameters>
+                </Parameters>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">2010</VersionInfo>
+                    <VersionInfo Name="MinorVer">20</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">0</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1046</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName">Intelectivo Sistemas Estratégicos</VersionInfoKeys>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">2010.20.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright">Intelectivo Sistemas Estratégicos</VersionInfoKeys>
+                    <VersionInfoKeys Name="LegalTrademarks">Analyzer Business Intelligence</VersionInfoKeys>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName">Decision Cube</VersionInfoKeys>
+                    <VersionInfoKeys Name="ProductVersion">2010.R20.25102012</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k170.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp170.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

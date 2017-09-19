@@ -1,0 +1,52 @@
+[cxScheduler1: TcxPropertiesStoreComponent]
+=
+
+[cxScheduler1/Font: TFont]
+=
+Charset=1
+Color=-16777208
+Height=-11
+Name="Tahoma"
+Orientation=0
+Pitch="fpDefault"
+Size=8
+Style="[]"
+
+[cxScheduler1/LookAndFeel: TcxLookAndFeel]
+=
+AssignedValues="[lfvNativeStyle]"
+Kind="lfUltraFlat"
+NativeStyle="True"
+
+[cxScheduler1/OptionsView: TcxSchedulerOptionsView]
+=
+AdditionalTimeZone=-1
+AdditionalTimeZoneLabel=""
+CurrentTimeZone=-1
+CurrentTimeZoneLabel=""
+DayBorderColor=536870912
+EventBorderColor=0
+EventHeight=0
+GroupingKind="gkDefault"
+GroupSeparatorWidth=11
+HideSelection="False"
+HorzSplitterWidth=5
+ResourcesPerPage=0
+RotateResourceCaptions="True"
+ShowAdditionalTimeZone="False"
+ShowEventsWithoutResource="True"
+ShowHints="True"
+StartOfWeek="swSystem"
+VertSplitterWidth=5
+ViewPosition="vpLeft"
+WorkDays="[dSunday,dMonday,dTuesday,dWednesday,dThursday,dFriday,dSaturday]"
+WorkFinish=0,75
+WorkStart=0,333333333333333
+
+[cxScheduler1/OptionsView/ResourceHeaders: TcxSchedulerResourceHeaders]
+=
+Height=0
+MultilineCaptions="False"
+ImagePosition="ipLeft"
+RotateCaptions="True"
+
